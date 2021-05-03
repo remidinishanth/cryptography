@@ -1,3 +1,5 @@
+The Hypertext Transfer Protocol (HTTP) is the basic communication protocol that both clients and servers must implement in order to be able to communicate. It covers things such as requests and responses, sessions, caching, authentication and more. 
+
 Browser to Youtube.com
 
 ![image](https://user-images.githubusercontent.com/19663316/116873789-e038e000-ac35-11eb-84f0-7ffea094363c.png)
