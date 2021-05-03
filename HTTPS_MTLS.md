@@ -2,6 +2,8 @@ The **Hypertext Transfer Protocol (HTTP)** is the basic communication protocol t
 
 The protocol transfers information between the browser and the server in clear text, allowing the network, through which the information passes, to see the information transmitted. This is a security concern, so **HTTP Secure (HTTPS)** was introduced, allowing the client and the server to first establish an encrypted communication channel, and then pass the clear text HTTP messages through it, effectively protecting them from eavesdropping.
 
+The encrypted channel is created using the Transport Layer Security (TLS) protocol, previously called Secure Socket Layer (SSL).
+
 Browser to Youtube.com
 
 ![image](https://user-images.githubusercontent.com/19663316/116873789-e038e000-ac35-11eb-84f0-7ffea094363c.png)
