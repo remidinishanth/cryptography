@@ -1,3 +1,17 @@
+Recall:	two	kinds	of	encryption	schemes.
+
+* E is encrypt, D is decrypt
+* Symmetric key cryptography means same key is used to encrypt & decrypt
+  * ciphertext = E_k(plaintext)
+  * plaintext = D_k(ciphertext)
+* Asymmetric key(public key) cryptography: encrypt & decrypt keys differ
+  * ciphertext = E_PK(plaintext)
+  * plaintext = D_SK(ciphertext)
+  * PK and SK are public and secret(private) keys repectively.
+* Public key cryptography	is	orders	of	magnitude	slower	than	symmetric	
+
+
+
 The **Hypertext Transfer Protocol (HTTP)** is the basic communication protocol that both clients and servers must implement in order to be able to communicate. It covers things such as requests and responses, sessions, caching, authentication and more. 
 
 The protocol transfers information between the browser and the server in clear text, allowing the network, through which the information passes, to see the information transmitted. This is a security concern, so **HTTP Secure (HTTPS)** was introduced, allowing the client and the server to first establish an encrypted communication channel, and then pass the clear text HTTP messages through it, effectively protecting them from eavesdropping.
