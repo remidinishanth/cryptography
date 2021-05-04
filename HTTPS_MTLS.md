@@ -11,6 +11,25 @@ Recall:	two	kinds	of	encryption	schemes.
 * Public key cryptography	is	orders	of	magnitude	slower	than	symmetric	
 
 
+## Terminology
+
+* Certificate (cert)
+
+The public half of a public/private key pair with some additional metadata about who issued it etc. It may be freely given to anyone.
+
+* Private Key
+
+A private key can verify that its corresponding certificate/public key was used to encrypt data. It is never given out publicly.
+
+* Certificate Authority (CA)
+
+A company that issues digital certificates. For SSL/TLS certificates, there are a small number of providers (e.g. Symantec/Versign/Thawte, Comodo, GoDaddy, LetsEncrypt) whose certificates are included by most browsers and Operating Systems. They serve the purpose of a “trusted third party”.
+
+* Certificate Signing Request (CSR)
+
+A file generated with a private key. A CSR can be sent to a CA to request to be signed. The CA uses its private key to digitally sign the CSR and create a signed cert. Browsers can then use the CA’s cert to validate the new cert has been approved by the CA.
+
+## HTTPS
 
 The **Hypertext Transfer Protocol (HTTP)** is the basic communication protocol that both clients and servers must implement in order to be able to communicate. It covers things such as requests and responses, sessions, caching, authentication and more. 
 
