@@ -33,11 +33,13 @@ Certification authorities (CAs) are organizations trusted to sign certificates. 
 ![image](https://user-images.githubusercontent.com/19663316/116964662-b6c99400-acc9-11eb-845f-4e51e40e0e5b.png)
 
 
-
 Managing our own CA
 
 ![image](https://user-images.githubusercontent.com/19663316/116874430-f1362100-ac36-11eb-8d98-46fab9eb6fae.png)
 
+There are lots of ways for a client to authenticate itself against a server, including basic authentication, form-based authentication, and OAuth.
+
+To prevent exposing user credentials over the wire, the client communicates with the server over HTTPS, and the server’s identify is confirmed by validating its SSL certificate. The server doesn’t necessarily care who the client is, just as long as they have the correct credentials.
 
 In a traditional TLS handshake, the client authenticates the server, and the server doesn’t know too much about the client. In Client side TLS(TLS with client authentication), the server additionally authenticates that the client connecting to it is authorized to connect. TLS Client Authentication is useful in cases where a server is keeping track of hundreds of thousands or millions of clients. In the case of a mobile banking app, where the bank wants to ensure customers’ secure financial data doesn’t get stolen by bots spoofing their mobile app, they can issue a unique certificate to every app install and in the TLS handshake validate requests are coming from their mobile app.
 
