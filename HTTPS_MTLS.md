@@ -10,6 +10,9 @@ Recall:	two	kinds	of	encryption	schemes.
   * PK and SK are public and secret(private) keys repectively.
 * Public key cryptography	is	orders	of	magnitude	slower	than	symmetric	
 
+## How key exchange works today
+
+The most famous cryptographic protocol for key exchange is Diffie–Hellman, published in 1976 by Whitfield Diffie and Martin Hellman. Diffie–Hellman allows the creation of a shared secret between a sender and receiver. This shared secret is unable to be deduced by an eavesdropper who is observing the messages between the sender and receiver, except via a brute force attack. If the keyspace for the shared secret is large enough and the secret generated is sufficiently random, brute force attacks become nearly impossible. source: <https://developer.okta.com/books/api-security/tls/key-exchange/>
 
 ## Terminology
 
