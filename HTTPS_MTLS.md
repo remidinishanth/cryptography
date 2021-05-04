@@ -66,6 +66,9 @@ In a traditional TLS handshake, the client authenticates the server, and the ser
 
 SYN, SYN ACK, ACK happens as part of TCP, Cert handshake happens as part of TLS
 
+![image](https://user-images.githubusercontent.com/19663316/116966486-eaa6b880-accd-11eb-9723-ad20d393bdc0.png)
+
+
 ![image](https://user-images.githubusercontent.com/19663316/116966365-9ac7f180-accd-11eb-9f34-3ee3b5f76194.png)
 
 
