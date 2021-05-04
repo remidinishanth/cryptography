@@ -32,6 +32,18 @@ A company that issues digital certificates. For SSL/TLS certificates, there are 
 
 A file generated with a private key. A CSR can be sent to a CA to request to be signed. The CA uses its private key to digitally sign the CSR and create a signed cert. Browsers can then use the CA’s cert to validate the new cert has been approved by the CA.
 
+* HTTPS
+
+Also called HTTP over SSL/TLS, is an extension of HTTP which encrypts communication. HTTPS URLs begin with "https://" and use port 443 by default. This is an improvement over HTTP, which is vulnerable to eavesdropping and man-in-the-middle attacks.
+
+* SSL
+
+Secure Sockets Layer was released by Netscape in 1995. SSL adoption increased after the redesigned SSL 3.0 was released in 1996. The IETF prohibited SSL 2.0 in 2011. SSL 3.0 was prohibited in 2015 after the IETF identified various security vulnerabilities which affected all SSL 3.0 ciphers.
+
+* TLS
+
+Transport Layer Security is the successor to SSL. In fact, the documentation for TLS 1.0 describes it as an "upgrade" of SSL 3.0. The current TLS version is 1.3. Although virtually all HTTPS-secured traffic uses TLS due to problems with SSL, the SSL nomenclature persists in internet culture. These days, when somebody says SSL, it is likely they mean TLS.
+
 ## HTTPS
 
 The **Hypertext Transfer Protocol (HTTP)** is the basic communication protocol that both clients and servers must implement in order to be able to communicate. It covers things such as requests and responses, sessions, caching, authentication and more. 
