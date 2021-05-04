@@ -64,6 +64,8 @@ An even higher level of security can be gained with using SSL certificates for b
 
 In a traditional TLS handshake, the client authenticates the server, and the server doesn’t know too much about the client. In Client side TLS(TLS with client authentication), the server additionally authenticates that the client connecting to it is authorized to connect. TLS Client Authentication is useful in cases where a server is keeping track of hundreds of thousands or millions of clients. In the case of a mobile banking app, where the bank wants to ensure customers’ secure financial data doesn’t get stolen by bots spoofing their mobile app, they can issue a unique certificate to every app install and in the TLS handshake validate requests are coming from their mobile app.
 
+SYN, SYN ACK, ACK happens as part of TCP, Cert handshake happens as part of TLS
+
 ![image](https://user-images.githubusercontent.com/19663316/116966365-9ac7f180-accd-11eb-9f34-3ee3b5f76194.png)
 
 
