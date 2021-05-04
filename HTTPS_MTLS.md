@@ -62,6 +62,8 @@ How Youtube.com creates his cert and how it is signed by Google CA. Every comput
 
 Certification authorities (CAs) are organizations trusted to sign certificates. Operating systems, such as Windows, macOS, iOS and Android, as well as the Firefox browser, have a list of trusted certificates. Chain of Trust
 
+![image](https://user-images.githubusercontent.com/19663316/116968787-cd281d80-acd2-11eb-87e7-e9e948d1e201.png)
+
 ![image](https://user-images.githubusercontent.com/19663316/116874842-994bea00-ac37-11eb-8ce9-6cd99688b5e0.png)
 
 ![image](https://user-images.githubusercontent.com/19663316/116964662-b6c99400-acc9-11eb-845f-4e51e40e0e5b.png)
